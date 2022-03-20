@@ -16,6 +16,7 @@ import {
   Text,
   useColorScheme,
   View,
+  Button,
 } from 'react-native';
 
 import {
@@ -40,6 +41,8 @@ const App = () => {
       <View>
       <Text>Customised Food Labels</Text>
       <Text>By Chris Griffiths</Text>
+      <Text>Food Label Below</Text>
+      <Button title="Test"/>
       </View>
   );
 };
